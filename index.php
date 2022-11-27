@@ -6,48 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body class="bg-stone-300">
+<body>
     <?php
         include 'header.php';
     ?>
-        <div class="relative w-1/2 mx-auto pt-20 rounded-md">
+        <div class="relative w-1/2 mx-auto pt-20 rounded-lg hidden md:block">
+
             <div class="slide relative shadow shadow rounded-md">
-                <img class="w-full h-[300px] object-cover" src="./assets/download.jpg">
+                <img class="w-full h-[500px] object-cover rounded-md" src="./assets/2.jpg">
             </div>
 
             <div class="slide relative shadow shadow rounded-md">
-                <img class="w-full h-[300px] object-cover rounded-md" src="./assets/download1.jpg">
+                <img class="w-full h-[500px] object-cover rounded-md" src="./assets/3.jpg">
             </div>
 
             <div class="slide relative shadow shadow rounded-md">
-                <img class="w-full h-[300px] object-cover rounded-md" src="./assets/download2.jpg">
+                <img class="w-full h-[500px] object-cover rounded-md" src="./assets/4.jpg">
             </div>
 
-            <a class="absolute left-0 top-1/2 p-4 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer"
+            <div class="slide relative shadow shadow rounded-md">
+                <img class="w-full h-[500px] object-cover rounded-md" src="./assets/5.jpg">
+            </div>
+
+            <a class="absolute left-0 top-1/2 p-4 bg-black/30 hover:bg-black/50 text-white cursor-pointer"
                 onclick="moveSlide(-1)">❮</a>
 
-            <a class="absolute right-0 top-1/2 p-4 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer"
+            <a class="absolute right-0 top-1/2 p-4 bg-black/30 hover:bg-black/50 text-white cursor-pointer"
                 onclick="moveSlide(1)">❯</a>
 
         </div>
-        <div class="mx-auto w-2/3 mt-10">
-            <div class="flex flex-row h-auto my-1 text-center bg-white shadow rounded-md">
-                <img src="./assets/download.jpg" alt="" class="w-1/3 mx-1 p-1">
-                <p class="p-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum mi id pharetra fringilla. Phasellus imperdiet lacinia maximus. Sed semper libero est, sit amet pulvinar metus condimentum quis. Nam euismod nisl ac lectus malesuada cursus. Duis in ipsum vel tortor posuere pellentesque. Sed egestas congue laoreet. Pellentesque eleifend neque nibh, ornare porta lacus aliquet ultricies. Cras ante lacus, pellentesque non porta sed, volutpat non metus. Nam nec posuere nibh. Nunc porta sodales mauris nec laoreet.</p>
+
+        <div class="pt-20">
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4">
+                <div class="md:flex">
+                    <div class="md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-full md:w-48" src="./assets/team.jpg">
+                    </div>
+                    <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-700 font-semibold">Wie zijn wij?</div>
+                    <p class="mt-2 text-lg font-medium">Wij, team 8 op een rij, stellen ons graag voor.</p>
+                    <a href="aboutUs.php" class="block mt-1 underline">Over ons</a>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-row h-auto my-1 text-center bg-white shadow rounded-md">
-                <img src="./assets/download1.jpg" alt="" class="w-1/3 mx-1 p-1">
-                <p class="p-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum mi id pharetra fringilla. Phasellus imperdiet lacinia maximus. Sed semper libero est, sit amet pulvinar metus condimentum quis. Nam euismod nisl ac lectus malesuada cursus. Duis in ipsum vel tortor posuere pellentesque. Sed egestas congue laoreet. Pellentesque eleifend neque nibh, ornare porta lacus aliquet ultricies. Cras ante lacus, pellentesque non porta sed, volutpat non metus. Nam nec posuere nibh. Nunc porta sodales mauris nec laoreet.</p>
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4">
+                <div class="md:flex">
+                    <div class="md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-full md:w-48" src="./assets/spaghett.jpg">
+                    </div>
+                    <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-700 font-semibold">Onze acties</div>
+                    <p class="mt-2 text-lg font-medium">Wil jij graag helpen zodat wij kunnen fietsen voor Kom op Tegen Kanker? <br> Bekijk de acties!</p>
+                    <a href="acties.php" class="block mt-1 underline">Acties</a>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-row h-auto my-1 text-center bg-white shadow rounded-md">
-                <img src="./assets/download2.jpg" alt="" class="w-1/3 mx-1 p-1">
-                <p class="p-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum mi id pharetra fringilla. Phasellus imperdiet lacinia maximus. Sed semper libero est, sit amet pulvinar metus condimentum quis. Nam euismod nisl ac lectus malesuada cursus. Duis in ipsum vel tortor posuere pellentesque. Sed egestas congue laoreet. Pellentesque eleifend neque nibh, ornare porta lacus aliquet ultricies. Cras ante lacus, pellentesque non porta sed, volutpat non metus. Nam nec posuere nibh. Nunc porta sodales mauris nec laoreet.</p>
-            </div>
-            <div class="flex flex-row h-auto my-1 text-center bg-white shadow rounded-md">
-                <img src="./assets/download.jpg" alt="" class="w-1/3 mx-1 p-1">
-                <p class="p-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum mi id pharetra fringilla. Phasellus imperdiet lacinia maximus. Sed semper libero est, sit amet pulvinar metus condimentum quis. Nam euismod nisl ac lectus malesuada cursus. Duis in ipsum vel tortor posuere pellentesque. Sed egestas congue laoreet. Pellentesque eleifend neque nibh, ornare porta lacus aliquet ultricies. Cras ante lacus, pellentesque non porta sed, volutpat non metus. Nam nec posuere nibh. Nunc porta sodales mauris nec laoreet.</p>
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4 ">
+                <div class="md:flex">
+                    <div class="md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-full md:w-48" src="./assets/krant.jpg">
+                    </div>
+                    <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-700 font-semibold">Media</div>
+                    <p class="mt-2 text-lg font-medium">8 op een rij in de media.</p>
+                    <p class="mt-2"><a href="https://www.gva.be/cnt/dmf20221108_96507185?fbclid=IwAR2ygwTI4NvpE1uTJWWICudh7e68He57y9DX68uKohfco-2Sa7_nudv3pgs" class="underline">1.000 liter spaghettisaus ten voordele van 1000 km voor Kom op tegen Kanker - GVA</a></p>
+                    <p class="mt-2"><a href="https://www.hln.be/puurs-sint-amands/team-8-op-een-rij-maakt-en-verkoopt-1-100-liter-spaghetti-voor-kom-op-tegen-kanker~a2550935/" class="underline">Team ‘8 op een rij!’ maakt en verkoopt 1.100 liter spaghetti voor Kom op tegen Kanker - HLN</a></p>
+                    <p class="mt-2"><a href="https://www.nieuwsblad.be/cnt/dmf20221108_96507185" class="underline">1.000 liter spaghettisaus ten voordele van 1000 km voor Kom op tegen Kanker - Het Nieuwsblad</a></p>
+                    <p class="mt-2"><a href="https://www.rtv.be/artikels/1000-liter-spaghettisaus-sint-amands-voor-kotk-a122678" class="underline">1000 liter spaghettisaus in Sint-Amands voor KOTK - RTV</a></p>
+                    </div>
+                </div>
             </div>
         </div>
+
         <br>
 
         <script>
