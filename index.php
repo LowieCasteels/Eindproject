@@ -72,7 +72,7 @@
                     <p class="mt-2"><a href="https://www.gva.be/cnt/dmf20221108_96507185?fbclid=IwAR2ygwTI4NvpE1uTJWWICudh7e68He57y9DX68uKohfco-2Sa7_nudv3pgs" class="underline">1.000 liter spaghettisaus ten voordele van 1000 km voor Kom op tegen Kanker - GVA</a></p>
                     <p class="mt-2"><a href="https://www.hln.be/puurs-sint-amands/team-8-op-een-rij-maakt-en-verkoopt-1-100-liter-spaghetti-voor-kom-op-tegen-kanker~a2550935/" class="underline">Team ‘8 op een rij!’ maakt en verkoopt 1.100 liter spaghetti voor Kom op tegen Kanker - HLN</a></p>
                     <p class="mt-2"><a href="https://www.nieuwsblad.be/cnt/dmf20221108_96507185" class="underline">1.000 liter spaghettisaus ten voordele van 1000 km voor Kom op tegen Kanker - Het Nieuwsblad</a></p>
-                    <p class="mt-2"><a href="https://www.rtv.be/artikels/1000-liter-spaghettisaus-sint-amands-voor-kotk-a122678" class="underline">1000 liter spaghettisaus in Sint-Amands voor KOTK - RTV</a></p>
+                    <p class="mt-2"><a href="https://www.rtv.be/artikels/1000-liter-spaghettisaus-sint-amands-voor-kotk-a122678" class="underline">1000 liter spaghettisaus in Sint-Amands voor KOTK - rtv</a></p>
                     </div>
                 </div>
             </div>
