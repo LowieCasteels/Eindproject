@@ -9,6 +9,7 @@
 <body>
     <?php
         include 'header.php';
+        include 'firebase.php';
     ?>
         <div class="pt-20">
             <!--

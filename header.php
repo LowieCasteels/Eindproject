@@ -9,8 +9,10 @@
 <body>
     <?php
         include "tailwind.php";
+        include "firebase.php";
+        include "config.php";
     ?>
-    <nav class="px-2 bg-sky-900">
+    <!-- <nav class="px-2 bg-sky-900">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <span class="self-center text-xl font-bold text-white">Team 8 op een rij</span>
             <div class="w-full flex w-auto">
@@ -27,6 +29,6 @@
                 </ul>
             </div>
         </div>
-    </nav>    
+    </nav>     -->
 </body>
 </html>
