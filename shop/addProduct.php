@@ -5,6 +5,17 @@
     // var_dump($products);
 
     if (isset($_POST['create'])) {
+        $naam = $_POST['naam'];
+        $beschrijving = $_POST['beschrijving'];
+        $prijs = $_POST['prijs'];
+        $afbeelding = $_POST['afbeelding'];
+        // $fotos = 
+
+        // $stripe->products->create([
+        //   'name' => $naam,
+        //   'description' => $beschrijving,
+        //   'images' => 
+        // ])
 
     } else {
         ?>
