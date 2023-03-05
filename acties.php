@@ -38,7 +38,7 @@
                     <div class="uppercase tracking-wide text-sm text-indigo-700 font-semibold">Verkoop spaghettisaus</div>
                     <p class="mt-2 text-lg font-medium">Bestel onze spaghettisaus zodat wij kunnen fietsen</p>
                     <p class="mt-2">Heerlijke '8 op een rij' spaghettisaus t.v.v. de 1000 km voor Kom op Tegen Kanker</p>
-                    <a href="#" class="block mt-1 underline">Bestellen!</a>
+                    <a href="./shop" class="block mt-1 underline">Bestellen!</a>
                     </div>
                 </div>
             </div>
